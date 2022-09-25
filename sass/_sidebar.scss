@@ -1,0 +1,9 @@
+.sidebar {
+  background-color: $brown-1;
+  grid-column: sidebar-start / sidebar-end;
+  grid-row: 1 / -1;
+  @media only screen and (max-width: $bp-large) {
+    grid-column: 1 / -1;
+    grid-row: 1 / 2;
+  }
+}

@@ -1,0 +1,35 @@
+%heading {
+  font-family: sans-serif "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 400;
+  color: #101d2c;
+  //color: $dark-blue;
+}
+.heading-1 {
+  @extend %heading;
+  color: rgb(209, 15, 15);
+  font-size: 5rem;
+  letter-spacing: 1.5px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.heading-2 {
+  @extend %heading;
+  font-size: 4rem;
+  font-style: italic;
+  line-height: 1;
+  color: rgb(209, 15, 15);
+}
+.heading-3 {
+  @extend %heading;
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+.heading-4 {
+  @extend %heading;
+  font-size: 1.9rem;
+  color: #f9f7f6;
+  font-weight: 700;
+}
+.heading-4-f {
+  color: #b28451;
+}

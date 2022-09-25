@@ -1,0 +1,27 @@
+.btn {
+  background-color: $brown-1;
+  color: #fff;
+  border: none;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  padding: 1.8rem 3rem;
+  cursor: pointer;
+  transition: all 0.2s;
+  &:hover {
+    background-color: $brown-2;
+  }
+}
+
+.cta {
+  background-color: $brown-1;
+  color: #fff;
+  border: none;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  padding: 1.8rem 3rem;
+  cursor: pointer;
+  transition: all 0.2s;
+  &:hover {
+    background-color: $brown-2;
+  }
+}
